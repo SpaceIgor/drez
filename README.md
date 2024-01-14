@@ -24,7 +24,7 @@ for mac export nameenv=value
 - POSTGRES_USER 
 - SECRET_KEY
 
-run pip install -r requirements.txt
-run python manage.py makemigrations
-run python manage.py migrate
+run pip install -r requirements.txt   
+run python manage.py makemigrations   
+run python manage.py migrate    
 run python manage.py runserver 127.0.0.1:8080
